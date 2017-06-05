@@ -82,7 +82,7 @@ return UUID;
       usedConfiguration = void 0;
       getScriptUrl = function(options) {
         if (options.china) {
-          return 'http://maps.google.cn/maps/api/js?';
+          return 'https://maps.google.cn/maps/api/js?';
         } else {
           if (options.transport === 'auto') {
             return '//maps.googleapis.com/maps/api/js?';
